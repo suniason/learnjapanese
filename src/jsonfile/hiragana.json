@@ -1,0 +1,148 @@
+[
+  {
+    "group": "-",
+    "characters": [
+      { "japanese": "あ", "english": "a" },
+      { "japanese": "い", "english": "i" },
+      { "japanese": "う", "english": "u" },
+      { "japanese": "え", "english": "e" },
+      { "japanese": "お", "english": "u" }
+    ]
+  },
+  {
+    "group": "k",
+    "characters": [
+      { "japanese": "か", "english": "ka" },
+      { "japanese": "き", "english": "ki" },
+      { "japanese": "く", "english": "ku" },
+      { "japanese": "け", "english": "ke" },
+      { "japanese": "こ", "english": "ko" }
+    ]
+  },
+  {
+    "group": "s",
+    "characters": [
+      { "japanese": "さ", "english": "sa" },
+      { "japanese": "し", "english": "shi" },
+      { "japanese": "す", "english": "su" },
+      { "japanese": "せ", "english": "se" },
+      { "japanese": "そ", "english": "so" }
+    ]
+  },
+  {
+    "group": "t",
+    "characters": [
+      { "japanese": "た", "english": "ta" },
+      { "japanese": "ち", "english": "chi" },
+      { "japanese": "つ", "english": "tsu" },
+      { "japanese": "て", "english": "te" },
+      { "japanese": "と", "english": "to" }
+    ]
+  },
+  {
+    "group": "n",
+    "characters": [
+      { "japanese": "な", "english": "na" },
+      { "japanese": "に", "english": "ni" },
+      { "japanese": "ぬ", "english": "nu" },
+      { "japanese": "ね", "english": "ne" },
+      { "japanese": "の", "english": "no" }
+    ]
+  },
+  {
+    "group": "h",
+    "characters": [
+      { "japanese": "は", "english": "ha" },
+      { "japanese": "ひ", "english": "hi" },
+      { "japanese": "ふ", "english": "fu" },
+      { "japanese": "へ", "english": "he" },
+      { "japanese": "ほ", "english": "ho" }
+    ]
+  },
+  {
+    "group": "m",
+    "characters": [
+      { "japanese": "ま", "english": "ma" },
+      { "japanese": "み", "english": "mi" },
+      { "japanese": "む", "english": "mu" },
+      { "japanese": "め", "english": "me" },
+      { "japanese": "も", "english": "mo" }
+    ]
+  },
+  {
+    "group": "y",
+    "characters": [
+      { "japanese": "や", "english": "ya" },
+      { "japanese": "ゆ", "english": "yu" },
+      { "japanese": "よ", "english": "yo" }
+    ]
+  },
+  {
+    "group": "r",
+    "characters": [
+      { "japanese": "ら", "english": "ra" },
+      { "japanese": "り", "english": "ri" },
+      { "japanese": "る", "english": "ru" },
+      { "japanese": "れ", "english": "re" },
+      { "japanese": "ろ", "english": "ro" }
+    ]
+  },
+  {
+    "group": "•",
+    "characters": [
+      { "japanese": "わ", "english": "wa" },
+      { "japanese": "を", "english": "o" },
+      { "japanese": "ん", "english": "n" }
+    ]
+  },
+  {
+    "group": "g",
+    "characters": [
+      { "japanese": "が", "english": "ga" },
+      { "japanese": "ぎ", "english": "gi" },
+      { "japanese": "ぐ", "english": "gu" },
+      { "japanese": "げ", "english": "ge" },
+      { "japanese": "ご", "english": "go" }
+    ]
+  },
+  {
+    "group": "z",
+    "characters": [
+      { "japanese": "ざ", "english": "za" },
+      { "japanese": "じ", "english": "zi" },
+      { "japanese": "ず", "english": "zu" },
+      { "japanese": "ぜ", "english": "ze" },
+      { "japanese": "ぞ", "english": "zo" }
+    ]
+  },
+  {
+    "group": "d",
+    "characters": [
+      { "japanese": "だ", "english": "da" },
+      { "japanese": "ぢ", "english": "ji" },
+      { "japanese": "づ", "english": "zu" },
+      { "japanese": "で", "english": "de" },
+      { "japanese": "ど", "english": "do" }
+    ]
+  },
+  {
+    "group": "b",
+    "characters": [
+      { "japanese": "ば", "english": "ba" },
+      { "japanese": "び", "english": "bi" },
+      { "japanese": "ぶ", "english": "bu" },
+      { "japanese": "べ", "english": "be" },
+      { "japanese": "ぼ", "english": "bo" }
+    ]
+  },
+  {
+    "group": "p",
+    "characters": [
+      { "japanese": "ぱ", "english": "pa" },
+      { "japanese": "ぴ", "english": "pi" },
+      { "japanese": "ぷ", "english": "pu" },
+      { "japanese": "ぺ", "english": "pe" },
+      { "japanese": "ぽ", "english": "po" }
+    ]
+  }
+]
