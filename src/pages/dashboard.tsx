@@ -1,16 +1,15 @@
-import React from 'react'
-import Navbar from './components/navbar'
+import React, { useState } from 'react'
 import Sidebar from './components/sidebar'
 import Core from './components/core'
+import MenuTick from './components/menutick'
 
 const Dashboard: React.FC = () => {
+  const [isHidden, setIsHidden] = useState<boolean>(true)
   return (
-    <div className='flex min-w-full flex-col h-screen'>
-      <Navbar />
-      <div className='flex h-full max-w-full'>
-        <Sidebar />
-        <Core />
-      </div>
+    <div className='flex min-w-full h-screen'>
+      <Sidebar isHidden={isHidden} />
+      <MenuTick isHidden={isHidden} setIsHidden={setIsHidden} />
+      <Core />
     </div>
   )
 }
