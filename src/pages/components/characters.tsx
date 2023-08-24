@@ -11,7 +11,7 @@ const Characters: React.FC = () => {
       <div>
         <div className='grid grid-cols-2 text-center mb-3'>
           <p
-            className={`text-2xl font-bold cursor-pointer mx-4 p-2 transition-all ${
+            className={`text-2xl font-bold cursor-pointer mx-4 p-1 transition-all ${
               section === 'hiragana' ? 'bg-white bg-opacity-10' : ''
             }`}
             onClick={() => setSection('hiragana')}
@@ -19,7 +19,7 @@ const Characters: React.FC = () => {
             Hiragana
           </p>
           <p
-            className={`text-2xl font-bold cursor-pointer mx-4 p-2 transition-all ${
+            className={`text-2xl font-bold cursor-pointer mx-4 p-1 transition-all ${
               section === 'katakana' ? 'bg-white bg-opacity-10' : ''
             }`}
             onClick={() => setSection('katakana')}

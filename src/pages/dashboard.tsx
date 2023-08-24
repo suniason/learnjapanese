@@ -5,11 +5,12 @@ import MenuTick from './components/menutick'
 
 const Dashboard: React.FC = () => {
   const [isHidden, setIsHidden] = useState<boolean>(true)
+  const [view, setView] = useState<string>('character')
   return (
-    <div className='flex min-w-full h-screen'>
-      <Sidebar isHidden={isHidden} />
+    <div className='flex min-w-full max-w-full h-screen'>
+      <Sidebar isHidden={isHidden} setView={setView} />
       <MenuTick isHidden={isHidden} setIsHidden={setIsHidden} />
-      <Core />
+      <Core view={view} />
     </div>
   )
 }
