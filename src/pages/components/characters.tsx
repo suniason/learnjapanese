@@ -7,7 +7,7 @@ const Characters: React.FC = () => {
   const [section, setSection] = useState<string>('hiragana')
 
   return (
-    <div className='flex justify-center min-w-full max-w-full text-white p-5'>
+    <div className='flex justify-center w-full text-white p-5'>
       <div>
         <div className='grid grid-cols-2 text-center mb-3'>
           <p

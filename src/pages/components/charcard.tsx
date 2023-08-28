@@ -7,7 +7,7 @@ interface CharcardProps {
 
 const Charcard: React.FC<CharcardProps> = ({ jchar, echar }) => {
   return (
-    <div className='w-fit px-5 py-3 bg-slate-700 text-center text-lg rounded-md m-2'>
+    <div className='w-fit px-3 py-2 bg-slate-700 text-center text-lg rounded-md m-2'>
       <div>{jchar}</div>
       <div>{echar}</div>
     </div>
