@@ -9,10 +9,10 @@ const Sidebar: React.FC<SidebarProps> = ({ isHidden, setView }) => {
   return (
     <div
       className={`${
-        isHidden ? '-translate-x-full overflow-hidden  w-0' : 'translate-x-0'
-      } text-white h-full px-3 py-2 bg-slate-800 transition-all`}
+        isHidden ? '-translate-x-full overflow-hidden w-0 ' : 'translate-x-0 px-3 py-2'
+      } text-white h-screen transition-transform bg-slate-800`}
     >
-      <div className='text-2xl text-center px-4 py-2 font-bold'>Learn Japanese</div>
+      <div className='text-2xl text-center px-4 font-bold'>Learn Japanese</div>
       <div className={`grid py-2 text-md font-semibold`}>
         <p
           className='px-8 py-2 hover:bg-white hover:bg-opacity-10 rounded-md transition-all cursor-pointer'

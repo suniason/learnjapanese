@@ -2,7 +2,7 @@ import React from 'react'
 
 const Overview: React.FC = () => {
   return (
-    <div className='flex flex-col h-full min-w-full max-w-full text-white p-5 relative'>
+    <div className='flex flex-col h-screen w-full text-white p-2'>
       <div className='text-center p-5 text-5xl font-bold'>Learn Japanese</div>
       <div>
         <p className='px-10 py-4 text-xl'>
@@ -26,7 +26,8 @@ const Overview: React.FC = () => {
           practical contexts.
         </p>
       </div>
-      <li className='grid w-full text-center p-5 italic'>
+
+      <li className='grid w-full text-center italics'>
         <ul>App Name: Learn Japanese</ul>
         <ul>Creator: Brett Galvez</ul>
         <ul>Version 1.0</ul>

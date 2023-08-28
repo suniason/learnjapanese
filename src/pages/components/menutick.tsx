@@ -10,7 +10,7 @@ const MenuTick: React.FC<MenuTickProps> = ({ isHidden, setIsHidden }) => {
     setIsHidden(!isHidden)
   }
   return (
-    <div>
+    <div className='fixed z-10'>
       <button
         className='px-2 py-1 rounded-md text-white hover:bg-white hover:bg-opacity-10 transition-all cursor-pointer m-3'
         onClick={arrowClicked}

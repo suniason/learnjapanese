@@ -7,10 +7,12 @@ const Dashboard: React.FC = () => {
   const [isHidden, setIsHidden] = useState<boolean>(true)
   const [view, setView] = useState<string>('overview')
   return (
-    <div className='flex min-w-full max-w-full h-screen'>
+    <div className='flex w-full h-screen'>
       <Sidebar isHidden={isHidden} setView={setView} />
-      <MenuTick isHidden={isHidden} setIsHidden={setIsHidden} />
-      <Core view={view} />
+      <div className='w-full h-screen overflow-y-scroll'>
+        <MenuTick isHidden={isHidden} setIsHidden={setIsHidden} />
+        <Core view={view} />
+      </div>
     </div>
   )
 }

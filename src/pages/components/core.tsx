@@ -16,7 +16,7 @@ const Core: React.FC<CoreProps> = ({ view }) => {
     body = <div></div>
   }
 
-  return <div className='w-full'>{body}</div>
+  return <div className=' flex w-full'>{body}</div>
 }
 
 export default Core
